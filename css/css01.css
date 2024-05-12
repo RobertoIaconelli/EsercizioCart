@@ -1,0 +1,271 @@
+*{
+    background-color: #212529 ;
+}
+
+.container-fluid.scritte{
+    color: white;
+}
+
+.daje{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.navbar{
+    --bs-bg-opacity: 0;
+    
+}
+
+.social{
+    align-items: center;
+    margin: 0;
+   
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.immagine{
+    display: flex;
+}
+
+  
+  .header {
+    margin-bottom: 4rem;
+  }
+  
+  .row {
+    --bs-gutter-x: 0rem !important;
+    display: flex;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+  }
+
+  .row2{
+    --bs-gutter-x: 0rem !important;
+    display: flex;
+    border-top: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+  
+  .carrello{
+color: white;
+  }
+ 
+  
+  .prodottoDesc {
+    padding: 0rem 2rem;
+  
+  }
+  
+  
+  .descrizione {
+    font-size: 1.2rem;
+  }
+  
+  .quantita {
+    font-size: 1.5rem;
+  }
+  
+  .divImmagine {
+    width: 100%;
+    height: 280px;
+  
+  }
+  
+  .divImmagine img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carrello {
+    font-size: 4rem;
+  }
+  
+  .oggettiCarrello {
+    min-height: 850px;
+    margin-left: 0rem;
+  }
+  
+  .btnDelete {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .btnDelete:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0) !important;
+  }
+  
+  .prezzoTotale {
+    margin-top: 2rem;
+    margin-right: 10rem;
+  }
+  
+  .totale {
+    border-top: 2px solid black;
+   
+  }
+  
+  .oggettiCarrello {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    padding: 0px !important;
+  }
+  
+  .container-fluid {
+    --bs-gutter-x: 1.5rem;
+  }
+
+  .container-md{
+    margin-left: 0;
+  }
+
+  .immagineCarrello img{
+    margin-bottom: 2rem ;
+    
+  }
+
+  .scritte3{
+    padding-top: 6rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 17rem;
+    align-items: center;
+  }
+
+  .number2{
+    background-color: white !important;
+    height: 40px;
+    width: 60px;
+    border-radius: 0.5rem;
+    color: black;
+  }
+
+  .segni{
+    align-items: center;
+    color: rgb(4, 0, 255) !important;
+    position: relative;
+    border: none;
+  }
+
+  .titoloPrimario{
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+  .titoloPrimario .paragrafo1{
+    display: flex;
+    justify-content: end;
+
+    width: 80%;
+  }
+
+  .coloreBianco{
+    color: white;
+  }
+
+  .riepilogoOrdine{
+    position: absolute;
+    right: 20rem;
+    width: 20%;
+  }
+
+  .coloreBianco2{
+    color: white;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid black;
+  }
+
+  .riepilogoOggetti{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .riepilogoOggetti .dai{
+    display: flex;
+    font-size: 1.5rem;
+    
+  }
+
+
+
+  .buttonTre{
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: default !important;
+    color: white;
+  }
+
+  .coloreBianco3{
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+  }
+
+  .coloreBianco4{
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .lista{
+    background-color: white !important;
+    margin-bottom: 2rem;
+  }
+
+  #codiceSconto{
+    width: 25rem;
+    background-color: white !important;
+  }
+
+  .coloreBianco5{
+    color: white;
+    margin-bottom: 4rem;
+  }
+
+  .coloreBianco6{
+    color: white;
+    padding-top: 1rem;
+
+  }
+
+  .riepilogoTotale{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    align-items: center;
+  }
+  
+
+  .coloreGrigio{
+    color: #5f676e;
+  }
+
+  @media screen and (max-width: 400px) {
+
+    body{
+      display:block;
+  }
+  }
